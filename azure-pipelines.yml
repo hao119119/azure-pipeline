@@ -6,9 +6,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
-
+pool: AliSinPool
+  
 steps:
 - task: Maven@3
   inputs:
